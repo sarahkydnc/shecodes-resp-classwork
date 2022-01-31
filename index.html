@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SheCodes Responsive | Portfolio Site</title>
     <style>
+      body {
+        text-align: center;
+      }
+      :root {
+        --primary-color: coral;
+        --box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+        --border: 1px solid turquoise;
+      }
+
+      h1 {
+        color: var(--primary-color);
+      }
+
+      h3 {
+        border: var(--border);
+      }
+
       a {
         color: orange;
         text-decoration: none;
@@ -18,6 +35,12 @@
 
       a:visited {
         color: purple;
+      }
+
+      p {
+        color: white;
+        background: var(--primary-color);
+        box-shadow: var(--box-shadow);
       }
     </style>
   </head>
@@ -46,6 +69,12 @@
     <h2>This is NOT important</h2>
     <h2>This is NOT important</h2>
     <h2>This is NOT important</h2>
+
+    <p>
+      This is a paragraph <br />
+      This is a paragraph <br />
+      This is a paragraph
+    </p>
 
     <a href="index.html">Home</a> <br />
     <a href="about.html">About</a> <br />
