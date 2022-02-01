@@ -32,10 +32,31 @@
       a:visited {
         color: purple;
       }
+
+      .cities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .city {
+        border: 2px solid teal;
+        border-radius: 10px;
+        padding: 10px 20px;
+        flex: 1;
+      }
     </style>
   </head>
   <body>
     <h1>In the land of Kiwis 🥝</h1>
+
+    <div class="cities">
+      <span class="city">Auckland</span>
+      <span class="city">Wellington</span>
+      <span class="city">Christchurch</span>
+      <span class="city">Queenstown</span>
+    </div>
+
     <a href="../index.html">Home</a> <br />
     <a href="../about.html">About</a> <br />
     <a href="../works.html">Works</a> <br />
