@@ -10,6 +10,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>SheCodes Responsive | Portfolio Site</title>
     <style>
       body {
@@ -48,12 +53,74 @@
         background: var(--primary-color);
         box-shadow: var(--box-shadow);
       }
+
+      .logo {
+        max-width: 45px;
+      }
     </style>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar navbar-light"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="media/sk_logo-final_2021_SQ.png" alt="" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="works.html">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog/nz-trip.html">Travels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#important">Important</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.shecodes.io/"
+                target="_blank"
+                >School</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:sarah.kydnc@gmail.com"
+                >Mail Whale</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <h1 class="border border-5 bg-info text-white">Hello Portfolio 🗃</h1>
-    <a href="#important">What's important?!</a>
-    <a href="about.html#faq">FAQ</a>
+
     <h2>This is NOT important</h2>
     <h2>This is NOT important</h2>
     <h2>This is NOT important</h2>
