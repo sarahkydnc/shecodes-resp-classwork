@@ -12,9 +12,6 @@
     />
     <title>Portfolio Site | Works</title>
     <style>
-      body {
-        text-align: center;
-      }
       :root {
         --primary-color: coral;
         --box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
@@ -27,6 +24,7 @@
 
       a {
         color: orange;
+        text-align: center;
         text-decoration: none;
       }
 
@@ -38,10 +36,39 @@
       a:visited {
         color: purple;
       }
+
+      p {
+        font-size: 18px;
+      }
+
+      @media (max-width: 800px) {
+        h1,
+        p {
+          color: cornflowerblue;
+        }
+
+        h2 {
+          display: none;
+        }
+
+        p {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        body {
+          color: blueviolet;
+          background-color: coral;
+        }
+      }
     </style>
   </head>
   <body>
     <h1 class="text-center p-3">Work-work-work-work-WORK</h1>
+    <h2 class="text-center p-3">Just another manic monday~</h2>
+    <h3 class="text-center d-block d-sm-none">FOR MOBILE VIEWERS ONLY</h3>
 
     <div class="d-flex justify-content-evenly">
       <div>1</div>
@@ -67,6 +94,12 @@
         </div>
       </div>
     </div>
+
+    <p>
+      This is a paragraph This is a paragraph This is a paragraph<br />
+      This is a paragraph This is a paragraph This is a paragraph<br />
+      This is a paragraph This is a paragraph This is a paragraph
+    </p>
 
     <div class="container">
       <div class="row">
